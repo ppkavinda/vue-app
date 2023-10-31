@@ -11,13 +11,9 @@
 
     </head>
     <body>
-
         <div class="content">
-
           <div id="app">
-
             <nav-bar></nav-bar>
-
             <div class="jumbotron">
                 <div class="container">
                   <h1 class="display-4">My Blog</h1>
@@ -25,15 +21,11 @@
                   <hr class="my-4">
                 </div>
             </div>
-
             <div class="container">
                 <router-view></router-view>
-            </div>
-            
-          </div>
-          
+            </div>  
+          </div>  
         </div>
-
         <script src="js/manifest.js"></script>
         <script src="js/vendor.js"></script>
         <script src="js/app.js"></script>
