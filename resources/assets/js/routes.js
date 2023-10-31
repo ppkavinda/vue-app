@@ -20,10 +20,6 @@ let routes = [
 	{
 		path: '/register',
 		component: require('./views/Register.vue'),
-	},
-	{
-		path: '/logout',
-		// component: require('./views/Logout.vue'),
 	}
 ]
 
